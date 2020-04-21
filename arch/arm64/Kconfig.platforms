@@ -354,3 +354,12 @@ config ARCH_ZYNQMP
 	  This enables support for Xilinx ZynqMP Family
 
 endmenu
+
+config XIAOMI_MIDO
+        bool "Mido Board Support"
+        depends on ARCH_MSM8953
+        help
+          Support for Xiaomi Redmi note 4
+
+
+
